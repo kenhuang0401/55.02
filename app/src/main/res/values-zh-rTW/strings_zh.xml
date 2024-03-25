@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天氣預報</string>
+    <string name="hour">每小時氣溫</string>
+    <string name="tendays_weather">查看近10日溫度</string>
+    <string name="ch">中文</string>
+    <string name="en">英文</string>
+    <string name="back">返回</string>
+</resources>

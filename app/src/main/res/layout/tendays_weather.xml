@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_below="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
+        android:text="10天趨勢預報"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="364dp"
+        android:layout_height="252dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:scrollbars="none"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="26dp">
+
+        <LinearLayout
+            android:id="@+id/lt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hsv"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text=" " />
+</RelativeLayout>

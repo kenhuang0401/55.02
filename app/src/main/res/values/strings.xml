@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">55.02</string>
+    <string name="hour">hourly temperature</string>
+    <string name="tendays_weather">Check 10 days temperature</string>
+    <string name="ch">Chinese</string>
+    <string name="en">English</string>
+    <string name="back">back</string>
+</resources>
